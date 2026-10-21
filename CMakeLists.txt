@@ -41,3 +41,7 @@ if (BUILD_TESTING)
     target_compile_options(test_integration PRIVATE -UNDEBUG)
     add_test(NAME integration COMMAND test_integration)
 endif()
+
+# Var 25
+add_executable(variant_25 examples/variant_25.cpp)
+target_link_libraries(variant_25 PRIVATE arraylib)
