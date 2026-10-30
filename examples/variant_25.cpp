@@ -24,7 +24,7 @@ int main() {
     std::cout << "Средняя концентрация: " << avg_val << "\n";
     std::cout << "Медиана: " << median_val << "\n";
 
-    // Подсчет проб выше 1.30 (что равно 130 в нашем массиве)
+    // Подсчет проб выше 1.30 
     int count_above = 0;
     for (std::size_t i = 0; i < n; ++i) {
         if (concentration[i] > 130) {
